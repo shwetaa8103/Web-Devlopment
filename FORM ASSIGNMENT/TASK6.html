@@ -1,57 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TASK 6</title>
+    <title>Doctor Appointment Form</title>
 </head>
 <body>
-    <h3>
-        Doctor Appointment Form
-    </h3>
+   
+    <center>
+
+        <table border="0" width="75%" >
+        <tr>
+            <!-- Left Half: Image -->
+            <td width="50%"><img src="doctor.png" width="90%" height="500"></td>
+
+            <!-- Right Half: Form -->
+            
+            <td width="50%" >
+                
+                <form>
+                    
+                    <table border="0" cellpadding="5">
+                        <h2 align="center">Doctor Appointment Form</h2>
+                        <b><hr color="red"></b>
+                        <br>
+                        
+                         
+                        <tr>
+                            <td>Appointment Date:</td>
+                            <td><input type="date" name="date"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Appointment Time:</td>
+                            <td><input type="time" name="time"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Name:</td>
+                            <td>
+                                <input type="text" placeholder="First"> 
+                                <input type="text" placeholder="Last">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="gender"> Male
+                                <input type="radio" name="gender"> Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Phone:</td>
+                            <td><input type="number" placeholder="##########"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Address:</td>
+                            <td>
+                                <input type="text" placeholder="City">
+                                <input type="text" placeholder="State">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Your Query:</td>
+                            <td><textarea rows="3" cols="25"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td>Appointment Type:</td>
+                            <td>
+                                <input type="checkbox"> Cervix Checkup <br>
+                                <input type="checkbox"> Heart Checkup <br>
+                                <input type="checkbox"> Eye Checkup <br>
+                                <input type="checkbox"> Hearing Test
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Send">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    </center>
     
-    <form >
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fdoctor&psig=AOvVaw02sK2wmnI9OJGnM7J2UzwT&ust=1762079869746000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCuzP3g0JADFQAAAAAdAAAAABAE" >
-        <label for="date">Appointment Date:</label>
-        <input type="date" id="date" name="date" >
 
-        <br><br>
-
-        <label for="time">Appointment Time:</label>
-        <input type="time" id="time" name="time" >      
-        <br><br>
-
-        <label for="name">Name</label>
-        <input type="text" placeholder="first" id="name" name="name" >
-        <input type="text" placeholder="last" id="name" name="name" >
-        <br><br>
-
-        <label for="gender">Gender</label>
-        <input type="radio" value="Male"> Male
-        <input type="radio" value="Female"> Female
-        <input type="radio" value="Other"> Other
-
-        <br><br>
-
-        <label for="address"> Address/label>
-        <input type="text" placeholder="city">
-        <input type="text" placeholder="state">
-        <br><br>
-
-        <label for="query"> Your Query</label>
-        <textarea rows="2" cols="15"></textarea>
-
-        <br><br>
-
-        <label for="appointment"> Appointment type </label>  Select which appointment type(s) you require
-        <select>
-            <option > Cervix Checkup</option>
-             <option > Heart Checkup</option>
-              <option > EyeCheckup</option>
-               <option > Hearing Checkup</option>
-        </select>
-
-        <input type="button" value="send">
-    </form>
 </body>
 </html>
