@@ -1,47 +1,52 @@
-nav{
-    display: flex;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#logo
+{
+    display: flex;;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
-
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
 }
-ul li{
+#options ul
+{
     list-style: none;
-    display: inline-block;
-    padding: 20px;
-    
+    display: flex;
+    gap: 25px;
 }
- 
- .logo
- {
-   font-family: Roboto, sans-serif; font-size: 1.125rem; font-weight: 700; color: black;
- }
- nav button
- {
-    font-family: Roboto, sans-serif; font-size: 1.125rem;
-    color: white;
-    font-weight:bold;
-    border-radius: 5px;
-    padding: 5%;
-     display: inline-block;
 
- }
-nav button:hover
+#buttons button {
+  border-radius: 10px solid #333;
+  padding: 5px 12px;
+
+}
+#buttons blocks
 {
     background-color: black;
     color: white;
-    border-radius: 5px;
-    padding: 5%;
-
 }
- 
- 
- .main
+
+#buttons sign
+{
+    background-color: white;
+    color:white;
+}
+
+#buttons button:hover {
+  background-color: #f0f0f0;
+}
+.mainBody
 {
     display: flex;
-
-}
-#heading p{
-    color: rgb(128, 128, 128);
-
 }
