@@ -1,0 +1,44 @@
+.red
+{
+    color: red;
+}
+
+.green 
+{
+    color: green ;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.bgpink
+{
+    background-color: pink;
+}
+
+.bgblue
+{
+    background-color: skyblue;
+}
+
+.bggreen 
+{
+    background-color:greenyellow;
+}
+
+.fontlarge
+{
+    font-size: large;
+}
+
+.fontxxlarge
+{
+    font-size: xx-large;
+}
+
+.fontSmall
+{
+    font-size: small;
+}

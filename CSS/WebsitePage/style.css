@@ -175,6 +175,42 @@ body {
   text-align: none;
 }
 
+/* Styling for all input fields */
+.field-group input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc; /* The thin line separator */
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.field-group input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* @media (max-width: 768px) {
+  .main-content {
+    flex-direction: column-reverse; /* ✅ image below text */
+    /* text-align: center;
+    padding: 30px 5%;
+  }
+
+  .intro-content h1 {
+    font-size: 2rem;
+  }
+
+  .intro-content p {
+    font-size: 1rem;
+  }
+
+  .intro-image img {
+    max-width: 300px;
+  }
+} */
+
 
 
 
